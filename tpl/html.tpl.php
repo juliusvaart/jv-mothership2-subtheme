@@ -3,11 +3,13 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="<?php print $language->language; ?>" <?php print $rdf_namespaces; ?> <?php print $html_attributes; ?>> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="<?php print $language->language; ?>" <?php print $rdf_namespaces; ?> <?php print $html_attributes; ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="<?php print $language->language; ?>" <?php print $rdf_namespaces; ?> <?php print $html_attributes; ?>> <!--<![endif]-->
-<?php print $mothership_poorthemers_helper; ?>
+
 <head>
 <title><?php print $head_title; ?></title>
 <?php print $head; ?>
-<?php print $appletouchicon; ?>
+
+
+
 <?php if(theme_get_setting('mothership_mobile')){  ?>
 <meta name="MobileOptimized" content="width">
 <meta name="HandheldFriendly" content="true"><?php } ?>
